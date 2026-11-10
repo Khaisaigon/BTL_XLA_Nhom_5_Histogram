@@ -169,6 +169,19 @@ st.sidebar.write(PROJECT_NAME)
 st.sidebar.caption(
     "Python | NumPy | OpenCV | Streamlit"
 )
+# ==========================================
+# SOURCE CODE - GITHUB
+# ==========================================
+
+st.sidebar.divider()
+
+st.sidebar.markdown("### Source Code")
+
+st.sidebar.link_button(
+    "🔗 View Source Code on GitHub",
+    "https://github.com/Khaisaigon/BTL_XLA_Nhom_5_Histogram",
+    use_container_width=True
+)
 
 
 # ==========================================
