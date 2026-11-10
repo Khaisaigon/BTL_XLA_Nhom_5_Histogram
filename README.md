@@ -306,7 +306,7 @@ Notebook sử dụng lại các thuật toán trong thư mục `src/` để bả
 
 
 
-**Trường:** Trường Đại học Bách khoa – ĐHQG TP.HCM
+
 
 ---
 
