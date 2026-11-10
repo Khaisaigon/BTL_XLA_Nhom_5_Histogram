@@ -20,7 +20,7 @@ from web_modules.histogram_matching import (
 
 st.set_page_config(
     page_title="BTL_XLA_NHOM_5 ",
-    page_icon="🖼️",
+    page_icon="images/doraemon.jpg",
     layout="wide",
     initial_sidebar_state="expanded"
 )

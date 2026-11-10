@@ -3,6 +3,7 @@ import streamlit as st
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
+import pandas as pd
 
 from src.preprocessing import (
     convert_to_grayscale,
@@ -235,3 +236,30 @@ def render():
                 file_name="opencv_result.png",
                 mime="image/png"
             )
+
+
+    # ==========================================
+    # 9. LOOKUP TABLE (LUT)
+    # ==========================================
+
+    st.subheader("6. Lookup Table (LUT)")
+
+    with st.expander("View Lookup Table (LUT)"):
+
+        st.write(
+            "Bảng ánh xạ 256 mức xám từ ảnh gốc "
+            "sang ảnh sau Histogram Equalization."
+        )
+
+        # Tạo bảng LUT gồm 256 mức xám
+        lut_df = pd.DataFrame({
+            "Original Gray Level": np.arange(256),
+            "Mapped Gray Level": lut
+        })
+
+        # Hiển thị bảng LUT
+        st.dataframe(
+            lut_df,
+            hide_index=True,
+            use_container_width=True
+        )
