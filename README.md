@@ -194,11 +194,10 @@ BTLXLA_Nhom5/
 ### Bước 1: Clone Repository
 
 ```bash
-git clone <https://github.com/Khaisaigon/BTL_XLA_Nhom_5_Histogram>
+git clone https://github.com/Khaisaigon/BTL_XLA_Nhom_5_Histogram
 cd BTLXLA_Nhom5
 ```
 
-Thay `<https://github.com/Khaisaigon/BTL_XLA_Nhom_5_Histogram>` bằng đường dẫn GitHub thực tế.
 
 ### Bước 2: Tạo môi trường ảo
 
@@ -300,9 +299,9 @@ Notebook sử dụng lại các thuật toán trong thư mục `src/` để bả
 
 | STT | Họ và tên | MSSV |
 |---|---|---|
-| 1 | [Trần Vĩnh Huy] | [2311256] |
-| 2 | [Phạm Hoàng Đăng] | [2310732] |
-| 3 | [Đàm Lê Khải] | [2311545] |
+| 1 | Trần Vĩnh Huy | 2311256 |
+| 2 | Phạm Hoàng Đăng | 2310732 |
+| 3 | Đàm Lê Khải | 2311545 |
 
 
 
