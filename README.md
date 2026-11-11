@@ -9,6 +9,8 @@ Hệ thống cung cấp giao diện Web bằng Streamlit và Jupyter Notebook ph
 
 ---
 
+Website: https://btlxlanhom5-histogram.streamlit.app/
+
 ## 1. Giới thiệu 
 
 ### Mục tiêu
@@ -182,7 +184,7 @@ BTLXLA_Nhom5/
 
 ---
 
-## 5. Cài đặt và chạy dự án
+## 5. Cài đặt và chạy dự án (Nếu chạy localhost deploy trên máy)
 
 ### Yêu cầu
 
@@ -285,7 +287,7 @@ Notebook bao gồm:
 Notebook sử dụng lại các thuật toán trong thư mục `src/` để bảo đảm thống nhất với ứng dụng Streamlit.
 
 ---
-
+Website: https://btlxlanhom5-histogram.streamlit.app/
 ---
 ## 7. Thành viên nhóm
 
